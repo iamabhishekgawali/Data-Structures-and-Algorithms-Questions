@@ -51,7 +51,6 @@ int main()
         adj[dest].push_back(src);
     }
 
-
     bool Bipartite = true;
     for(int i=1;i<=n;i++)
     {

@@ -5,7 +5,6 @@
     Method : DP on grid type
 */
 
-
 #include<iostream>
 #include<vector>
 #include<unordered_map>
@@ -32,7 +31,7 @@ public:
 
         for(int i=0;i<8;i++)
             prb += solve(n,k-1,row+dir[i][0],column+dir[i][1])/8.0;
-        
+
         mp[key] = prb;
         return prb;
     }
