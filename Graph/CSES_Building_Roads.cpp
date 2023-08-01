@@ -55,6 +55,6 @@ int main()
     {
         cout << answer[i-1] << " " << answer[i] << endl;
     }
-    
+
     return 0;
 }

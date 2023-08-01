@@ -1,12 +1,8 @@
 
 /*
-
     Problem : Number of longest increasing subsequence
-
-
     Method : Longest increasing subsequence pattern
 */
-
 
 #include<iostream>
 #include<vector>

@@ -8,10 +8,12 @@
 
 #include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
 
 int n, m;
 
+queue<int> Queue;
 vector<vector<int>> adj(100001);
 vector<bool> visited(100001,false);
 vector<int> color(100001);
