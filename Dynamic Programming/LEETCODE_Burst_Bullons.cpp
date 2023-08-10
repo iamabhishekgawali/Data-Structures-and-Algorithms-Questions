@@ -3,11 +3,9 @@
 /*
 
     Pattern : Interval DP (Matrix Chain multiplication)
-
     Good explanation:  https://leetcode.com/problems/burst-balloons/solutions/892552/for-those-who-are-not-able-to-understand-any-solution-with-diagram/
 
 */
-
 
 #include<iostream>
 #include<vector>
@@ -33,7 +31,6 @@ public:
         if(i==j) return (i-1>=0?nums[i-1]:1)*(nums[i])*(j+1<=nums.size()-1?nums[j+1]:1);
         int ans = INT_MIN;
         if(dp[i][j] != -1) return dp[i][j];
-
 
         for(int k=i;k<=j;k++){
             int temp = (i-1>=0?nums[i-1]:1)*(nums[k])*(j+1<=nums.size()-1?nums[j+1]:1);
