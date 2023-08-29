@@ -1,10 +1,7 @@
 
 /*
-
     Pattern : Interval DP (Matrix Chain Multiplication)
-
 */
-
 
 #include<iostream>
 #include<vector>
